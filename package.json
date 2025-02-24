@@ -10,6 +10,9 @@
         "ember-addon",
         "ember-engine"
     ],
+  "publishConfig": {
+    "access": "public"
+  },
     "repository": "https://github.com/fleetbase/fleetops-data",
     "license": "AGPL-3.0-or-later",
     "author": "Fleetbase Pte Ltd <hello@fleetbase.io>",
