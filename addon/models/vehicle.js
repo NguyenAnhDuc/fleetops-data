@@ -50,13 +50,14 @@ export default class VehicleModel extends Model {
     @attr('string') slug;
 
     /** @dates */
+    @attr('date') inspection_date;
     @attr('date') deleted_at;
     @attr('date') created_at;
     @attr('date') updated_at;
 
     /** @computed */
-    @computed('year', 'make', 'model', 'trim', 'plate_number', 'internal_id') get displayName() {
-        const nameSegments = [this.year, this.make, this.model, this.trim, this.plate_number, this.internal_id];
+    @computed('year', 'make', 'model', 'trim', 'plate_number', 'inspection_date', 'internal_id') get displayName() {
+        const nameSegments = [this.year, this.make, this.model, this.trim, this.plate_number, this.inspection_date, this.internal_id];
         return nameSegments.filter(Boolean).join(' ').trim();
     }
 
@@ -100,6 +101,13 @@ export default class VehicleModel extends Model {
             return null;
         }
         return formatDate(this.created_at, 'dd, MMM');
+    }
+
+    @computed('inspection_date') get inspectionDate() {
+        if (!isValidDate(this.inspection_date)) {
+            return null;
+        }
+        return formatDate(this.inspection_date, 'PPP p');
     }
 
     @computed('location') get longitude() {
