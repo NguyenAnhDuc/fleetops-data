@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/fleetops-data/utils/relation-is-loaded';
+export { default } from '@ducna01120/fleetops-data/utils/relation-is-loaded';

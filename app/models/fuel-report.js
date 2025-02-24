@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/fleetops-data/models/fuel-report';
+export { default } from '@ducna01120/fleetops-data/models/fuel-report';

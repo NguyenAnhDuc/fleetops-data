@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/fleetops-data/utils/geojson/line-string';
+export { default } from '@ducna01120/fleetops-data/utils/geojson/line-string';

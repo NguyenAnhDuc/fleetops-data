@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/fleetops-data/adapters/facilitator';
+export { default } from '@ducna01120/fleetops-data/adapters/facilitator';

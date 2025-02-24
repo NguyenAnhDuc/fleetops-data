@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/fleetops-data/utils/geojson/create-primitive';
+export { default } from '@ducna01120/fleetops-data/utils/geojson/create-primitive';

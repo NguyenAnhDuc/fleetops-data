@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/fleetops-data/serializers/service-rate-parcel-fee';
+export { default } from '@ducna01120/fleetops-data/serializers/service-rate-parcel-fee';

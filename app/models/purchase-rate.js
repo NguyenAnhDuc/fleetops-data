@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/fleetops-data/models/purchase-rate';
+export { default } from '@ducna01120/fleetops-data/models/purchase-rate';

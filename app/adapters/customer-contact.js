@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/fleetops-data/adapters/customer-contact';
+export { default } from '@ducna01120/fleetops-data/adapters/customer-contact';

@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/fleetops-data/models/place';
+export { default } from '@ducna01120/fleetops-data/models/place';

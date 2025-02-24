@@ -1,1 +1,1 @@
-export { default } from '@fleetbase/fleetops-data/serializers/zone';
+export { default } from '@ducna01120/fleetops-data/serializers/zone';
