@@ -1,5 +1,5 @@
 {
-    "name": "@fleetbase/fleetops-data",
+    "name": "@ducna01120/fleetops-data",
     "version": "0.1.19",
     "description": "Fleetbase Fleet-Ops based models, serializers, transforms, adapters and GeoJson utility functions.",
     "keywords": [
